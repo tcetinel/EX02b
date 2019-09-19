@@ -4,7 +4,7 @@
    * Pet Name
 ## 2. Identify all the functional dependencies in the relation
    * Pet Name &#8594; (PetType, PetBreed, PetDOB, OwnerLastName, OwnerPhone, OwnerEmail)
-   * OwnerPhone &#8594; (OwnerFirstName, OwnerPhone, OwnerEmail)
+   * OwnerPhone &#8594; (OwnerFirstName, OwnerLastName, OwnerEmail)
    * OwnerEmail &#8594; (OwnerFirstName, OwnerLastName, OwnerPhone)
    * Service &#8594; (Charge, Date)
   
